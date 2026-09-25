@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --wine-dark: #120408;
+    --wine-card: #1f0810;
+    --wine-border: rgba(200, 162, 97, 0.18);
+    --gold-accent: #c8a261;
+    --gold-light: #f5dfab;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.font-display {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.05em;
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+/* Luxury gold text gradients */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #f7e7c4 0%, #dfbe75 50%, #b88a3b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-muted {
+  background: linear-gradient(135deg, #dfc699 0%, #bca16d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Luxury button gradient */
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #e4c47f 0%, #caa45d 50%, #9e7529 100%);
+}
+
+.bg-wine-gradient {
+  background: radial-gradient(circle at top right, #380b18 0%, #17040a 70%, #0d0205 100%);
+}
+
+/* Glass & Card Borders */
+.glass-panel {
+  background: rgba(30, 8, 16, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(200, 162, 97, 0.18);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel-hover:hover {
+  background: rgba(45, 12, 24, 0.8);
+  border-color: rgba(223, 190, 117, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.5), 0 0 25px -5px rgba(200, 162, 97, 0.15);
+}

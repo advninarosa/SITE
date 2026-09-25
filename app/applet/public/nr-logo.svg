@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240" fill="none">
+  <defs>
+    <linearGradient id="nrGoldGradient" x1="15%" y1="10%" x2="85%" y2="90%">
+      <stop offset="0%" stop-color="#fdf0cf" />
+      <stop offset="35%" stop-color="#eccd80" />
+      <stop offset="70%" stop-color="#cf9f4c" />
+      <stop offset="100%" stop-color="#aa7c30" />
+    </linearGradient>
+  </defs>
+  <!-- N: Left vertical stem -->
+  <path d="M 47 36 L 45 148" stroke="url(#nrGoldGradient)" stroke-width="4.2" stroke-linecap="round" />
+  <!-- N: Diagonal rising to peak arch and descending vertically -->
+  <path d="M 45 140 Q 64 85 86 28 C 88 23 92 23 94 28 L 94 186" fill="none" stroke="url(#nrGoldGradient)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- R: Bottom-left flourish crossing through middle stem into the sweeping upper bowl -->
+  <path d="M 72 135 C 77 118 85 104 94 100 C 108 92 142 86 150 116 C 158 145 133 169 107 170" fill="none" stroke="url(#nrGoldGradient)" stroke-width="4.2" stroke-linecap="round" />
+  <!-- R: Right vertical stem -->
+  <path d="M 107 125 L 107 228" stroke="url(#nrGoldGradient)" stroke-width="4.2" stroke-linecap="round" />
+  <!-- R: Diagonal leg -->
+  <path d="M 107 170 L 152 193" stroke="url(#nrGoldGradient)" stroke-width="4.2" stroke-linecap="round" />
+</svg>
